@@ -5,13 +5,19 @@
 // However, if the year is divisible by 100, it must also be divisible by 400 to be a leap year.
 
 
-const Year = Number('2023');
+const Year = Number('2010');
 
 
-if (Year % 4 == 0 || Year % 100 == 0 || Year % 400 == 0) {
-    console.log("This is a leap year");
+
+
+if (isNaN(Year)) {
+    console.log("Please enter a valid year");
 }
 else {
-    console.log("This is not a leap year");
-
+    if (Year % 4 == 0 || Year % 100 == 0 || Year % 400 == 0) {
+        console.log("This is a leap year");
+    }
+    else{
+        console.log("This is not a leap year");
+    }
 }

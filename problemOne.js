@@ -4,7 +4,7 @@ Write a program that takes a number as input and prints whether the number is po
 
 // Solve:
 
-var num = 65;
+var num = Number('651');
 
 if (num > 0) {
     console.log("This is a positive number");

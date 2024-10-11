@@ -5,7 +5,7 @@
 
 // solve:
 
-let a = '454.56';
+let a = '654';
 const num = parseInt(a);
 
 

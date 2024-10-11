@@ -10,7 +10,7 @@
 
 // solve:
 
-const result = Number('92');
+const result = Number('hjds');
 
 if (result >= 90 && result <= 100) {
     console.log("You got A");

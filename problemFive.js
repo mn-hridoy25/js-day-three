@@ -7,7 +7,7 @@
 // green=go
 
 
-var input = String("GReeN");
+var input = String("grEEn");
 const color = input.toLowerCase();
 
 if (color == "red") {
@@ -20,5 +20,5 @@ else if (color == "green") {
     console.log("Go");
 }
 else {
-    console.log("Please input the correct number");
+    console.log("Please input a valid color");
 }
