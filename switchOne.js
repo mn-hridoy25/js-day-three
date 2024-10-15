@@ -3,24 +3,24 @@ var today = date.getDay();
 
 switch (today) {
     case 0:
-        console.log("Sunday");
+        console.log("Sun Day");
         break;
     case 1:
-        console.log("Monday");
+        console.log("Mon Day");
         break;
     case 2:
-        console.log("Tuesday");
+        console.log("Tues Day");
         break;
     case 3:
-        console.log("Wednesday");
+        console.log("Wednes Day");
         break;
     case 4:
-        console.log("Thursday");
+        console.log("Thurs Day");
         break;
     case 5:
-        console.log("Friday");
+        console.log("Fri Day");
         break;
     case 6:
-        console.log("saturday");
+        console.log("satur Day");
         break;
 }
