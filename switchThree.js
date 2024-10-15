@@ -9,11 +9,11 @@ Input: 'Premium', 200 → Output: 160(after 20 % discount)*/
 
 
 // Solve:-
-var customerType = String("regular");
-var price = Number('550')
+var coupon = ("regular");
+var price = Number('400')
 
 
-switch (customerType.toLowerCase()) {
+switch (coupon.toLowerCase()) {
     case "regular":
         const regular = price - (price * (10 / 100));
         console.log(regular + ' ' + "(after 10% discount)");
@@ -25,5 +25,8 @@ switch (customerType.toLowerCase()) {
     case "vip":
         let vip = price - (price * (30 / 100))
         console.log(vip + ' ' + "(after 30% discount)");
-        break
+        break;
+    default:
+        console.log("Please input a valid coupon");
+        break;
 }
