@@ -4,6 +4,7 @@
 
 // Example:-
 
-var n=20;
+var n = 20;
 
-const  
+const result = n % 2 == 0 ? "Even" : "Odd";
+console.log(result);
